@@ -1,0 +1,26 @@
+header{
+background-color: springgreen;
+}
+nav{
+background-color: seagreen;
+}
+section{
+    background-color: darkcyan;
+    grid-template-columns: 1/4;
+}
+aside{
+background-color:darkslategrey;
+grid-template-columns: 3/4;
+}
+footer{
+    background-color: lightseagreen;
+}
+main{
+    display: grid;
+    grid-template-columns: ifr ifr ifr ifr;
+}
+.menu{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
