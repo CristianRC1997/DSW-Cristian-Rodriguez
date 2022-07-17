@@ -8,11 +8,12 @@ justify-content: space-between;
 
 }
 nav{
-background-color: seagreen;
+background-color:aliceblue;
 }
 section{
-    background-color: rgb(61, 109, 109);
+    background-color:seagreen(61, 109, 109);
     grid-column: 1/4;
+    color: rgb(58, 163, 163);
     
 }
 aside{
@@ -31,6 +32,37 @@ main{
     display: flex;
     flex-direction:row;
     justify-content: space-around;
+    padding: 0px 20px;
+    text-align: center;
+    align-items: flex-start;
+}
 
+.menu>li{
+    float: left; 
+
+
+}    
+.menu li a{
+background-color: rgb(62, 135, 135);
+color: azure;
+text-decoration: none;
+padding: 20px 40px;
+display: block;
+}
+.menu li a:hover{
+    background-color: rgb(33, 213, 144);
+}
    
+.menu li ul{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+}
+.menu li:hover> ul{
+    display: block;
+}
+.menu li ul li{
+    right: 140px;
 }
