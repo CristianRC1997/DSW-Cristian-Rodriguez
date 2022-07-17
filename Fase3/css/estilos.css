@@ -1,26 +1,36 @@
 header{
-background-color: springgreen;
+background-color: rgb(27, 63, 56);
+padding: 0,0%;
+display: flex;
+color: azure;
+flex-direction: row;
+justify-content: space-between;
+
 }
 nav{
 background-color: seagreen;
 }
 section{
-    background-color: darkcyan;
-    grid-template-columns: 1/4;
+    background-color: rgb(61, 109, 109);
+    grid-column: 1/4;
+    
 }
 aside{
 background-color:darkslategrey;
-grid-template-columns: 3/4;
+grid-column: 4/5;
 }
 footer{
-    background-color: lightseagreen;
+    background-color: rgb(27, 63, 56);
+    color: azure;
 }
 main{
     display: grid;
-    grid-template-columns: ifr ifr ifr ifr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .menu{
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: space-around;
+
+   
 }
