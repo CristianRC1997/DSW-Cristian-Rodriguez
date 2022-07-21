@@ -5,6 +5,7 @@ display: flex;
 color: azure;
 flex-direction: row;
 justify-content: space-between;
+text-align: center;
 
 }
 nav{
