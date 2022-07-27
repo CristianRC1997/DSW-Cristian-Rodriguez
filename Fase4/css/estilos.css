@@ -19,7 +19,7 @@ section{
 }
 aside{
 background-color:darkslategrey;
-
+grid-column: 4/5;
 }
 footer{
     background-color: rgb(27, 63, 56);
